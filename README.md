@@ -1,10 +1,10 @@
 <h1 align="center">
 	<br>
-	<img width="360" src="media/crob.png" alt="chalk">
+	<img width="360" src="https://raw.githubusercontent.com/rishigiridotcom/rishigiri.com/c87d810533b7c9b173e485d6b3d9935e5e9f9d35/github/crob.png" alt="crob">
 	<br>
 </h1>
 
-> :tada: Easily open chromium browser in linux via command line.
+> :tada: Easily open chromium browser in linux via command line and more.
 
 [![Build Status](https://travis-ci.org/CodeDotJS/crob.svg?branch=master)](https://travis-ci.org/CodeDotJS/crob)
 
