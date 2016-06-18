@@ -1,0 +1,50 @@
+{
+  "name": "crob",
+  "version": "1.0.0",
+  "description": "Easily open chromium browser in linux via command line and more.",
+  "main": "cli.js",
+  "bin": {
+    "crob": "cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeDotJS/crob.git"
+  },
+  "keywords": [
+    "launch",
+    "chromium",
+    "browser",
+    "linux",
+    "easy",
+    "file",
+    "open",
+    "multiple",
+    "sites",
+    "websites",
+    "directory",
+    "files"
+  ],
+  "dependencies": {
+    "colors": "*"
+    },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.1.1",
+    "xo": "*"
+    },
+  "xo": {
+    "esnext": true
+  },
+  "author": "Rishi Giri <rushforlinux@gmail.com> (http://rishigiri.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeDotJS/crob/issues"
+  },
+  "homepage": "https://github.com/CodeDotJS/crob#readme"
+}
