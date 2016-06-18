@@ -1,6 +1,13 @@
-import assert from 'assert';
+import childProcess from 'child_process';
+
 import test from 'ava';
 
-test('title', t => {
-	t.is(assert('./cli.js'));
+test.cb(t => {
+	childProcess.execFile('./cli.js', ['-s google.com'], {
+		cwd: __dirname
+	}, (err, stdout) => {
+		t.ifError(err);
+		t.true(stdout <= 0);
+		t.end();
+	});
 });
