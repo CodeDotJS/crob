@@ -4,8 +4,8 @@
 
 const argument = require('path').resolve(process.cwd(), process.argv[2] || '');
 const colors = require('colors/safe');
-const execute = 'chromium-browser ';
 
+const execute = 'chromium-browser ';
 const arg = process.argv[2];
 const dotTemplate = colors.cyan.bold('⚬');
 const arrowTemplate = colors.green.bold('➠');
