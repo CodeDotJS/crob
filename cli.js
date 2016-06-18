@@ -9,7 +9,7 @@ const execute = 'chromium-browser ';
 const arg = process.argv[2];
 const dotTemplate = colors.cyan.bold('⚬');
 const arrowTemplate = colors.green.bold('➠');
-const siteTemp = colors.green('google.com facebook.com twitter.com');
+const siteTemp = colors.green('github.com facebook.com quora.com');
 
 if (arg === '--help' || arg === '-h') {
 	console.log(colors.cyan(
