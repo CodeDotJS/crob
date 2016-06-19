@@ -6,8 +6,6 @@
 
 > :tada: Easily open chromium browser in linux via command line and more.
 
-[![Build Status](https://travis-ci.org/CodeDotJS/crob.svg?branch=master)](https://travis-ci.org/CodeDotJS/crob)
-
 ## Install
 
 - __```Ensure you've Node.js version >= 4 installed. Then run the following:```__
