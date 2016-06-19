@@ -32,11 +32,13 @@ if (arg === '-s') {
 	const site3 = process.argv[5];
 	if (site1 && site2 && site3 !== undefined) {
 		require('child_process').exec(`${execute} ${site1} ${site2} ${site3}`);
+
 		process.exit(1);
 	}
 
 	if (site1 && site2 !== undefined && site3 === undefined) {
 		require('child_process').exec(`${execute} ${site1} ${site2}`);
+
 		process.exit(1);
 	}
 
