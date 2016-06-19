@@ -11,6 +11,10 @@ const dotTemplate = colors.cyan.bold('⚬');
 const arrowTemplate = colors.green.bold('➠');
 const siteTemp = colors.green('github.com facebook.com quora.com');
 
+if (arg === '--version' || arg === '-v') {
+  console.log(require('./package.json').version)
+}
+
 if (arg === '--help' || arg === '-h') {
 	console.log(colors.cyan(
 `
