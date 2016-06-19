@@ -21,8 +21,6 @@ $ sudo npm install --global crob
 ```
 
 ## Usage
-
-- ```Easy to use```
 ```
 $ crob --h or --help
 ```
@@ -37,7 +35,29 @@ $ crob --h or --help
     ⚬ crob -s google.com facebook.com twitter.com
 ```
 
-- Every time you run __```crob```__, it opens a new browser window.
+## Why to __`crob`__ ?
+
+__`PROBLEM :`__ 
+
+- If you execute ```chromium-browser``` from command line, the tab needs to be opened because of running process.
+So, you need to switch to some other tab if you want to execute other commands, which probably is a waste of 
+time.
+
+__`SOLUTION :`__
+
+- Work on the same tab from where you launched `crob`.
+
+- Save yourself from messages which are shown while running `chromium-browser` from console.
+
+__`LITTLE MORE :`__
+
+- Open `Chromium Browser` in background. 
+
+- Opens `new` browser window everytime if you run `crob`
+
+__`BONUS :`__
+
+- Fast and easy to type.
 
 ## Licnse
 
