@@ -50,6 +50,8 @@ if (arg === '-s') {
 
 if (process.argv[2]) {
 	require('child_process').exec(`${execute} ${argument}`);
+	process.exit(1);
 } else {
 	require('child_process').exec('chromium-browser');
+	process.exit(1);
 }
