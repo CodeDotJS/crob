@@ -10,7 +10,8 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && ava"
+    "test": "xo && ava",
+    "prepublish": "npm run test"
   },
   "repository": {
     "type": "git",
@@ -32,12 +33,12 @@
   ],
   "dependencies": {
     "colors": "*"
-    },
+  },
   "devDependencies": {
     "ava": "*",
     "execa": "^0.1.1",
     "xo": "*"
-    },
+  },
   "xo": {
     "esnext": true
   },
