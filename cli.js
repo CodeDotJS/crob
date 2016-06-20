@@ -12,7 +12,8 @@ const arrowTemplate = colors.green.bold('➠');
 const siteTemp = colors.green('github.com facebook.com quora.com');
 
 if (arg === '--version' || arg === '-v') {
-  console.log(require('./package.json').version)
+	console.log(require('./package.json').version);
+	process.exit(1);
 }
 
 if (arg === '--help' || arg === '-h') {
