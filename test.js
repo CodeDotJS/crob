@@ -7,7 +7,7 @@ test.cb(t => {
 		cwd: __dirname
 	}, (err, stdout) => {
 		t.ifError(err);
-		t.true(stdout === '1.0.0');
+		t.true(stdout === '1.0.0\n');
 		t.end();
 	});
 });
