@@ -10,8 +10,7 @@
     "node": ">=4"
   },
   "scripts": {
-    "test": "xo && ava",
-    "prepublish": "npm run test"
+    "test": "xo && ava"
   },
   "repository": {
     "type": "git",
